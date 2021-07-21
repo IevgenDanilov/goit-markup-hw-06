@@ -55,7 +55,7 @@
             <div class="container">
                 <div class="hero-content">
                     <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                    <button class="button primary" data-modal-open type="button">Заказать
+                    <button class="button primary" data-modal-open type="submit">Заказать
                         услугу</button>
                 </div>
             </div>
@@ -398,8 +398,25 @@
                 </ul>
 
             </div>
-        </div>
+
+            <div class="subscribe">
+                <p class="subscribe-text">Подпишитесь на рассылку</p>
+                <form class="form-subscribe">
+                    <label for="user-email"></label>
+
+                    <input type="email" name="user-email" id="user-email" class="form-subscribe-input" required
+                        placeholder="E-mail">
+
+
+                    <button type="submit" class="subscribe-btn">Подписаться
+                        <svg class="subscribe-btn-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg></button>
+                </form>
+            </div>
     </footer>
+
+    <!-- Модальное окно -->
 
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
