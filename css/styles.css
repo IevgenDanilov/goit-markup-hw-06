@@ -148,7 +148,7 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: inline;
+  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -159,6 +159,8 @@ img {
 }
 
 .subscribe-btn-icon {
+  display: flex;
+  margin-left: 10px;
 }
 
 .modal-form-btn:hover,
@@ -976,7 +978,7 @@ h2 {
 .modal-form-checkbox:checked + .modal-form-checkbox-icon {
   fill: var(--primary-white-color);
   background-image: url('../images/svg/check.svg');
-  background-size: contain;
+  background-size: cover;
+  background-color: var(--accent-color);
   border-color: var(--accent-color);
-  background-origin: border-box;
 }
