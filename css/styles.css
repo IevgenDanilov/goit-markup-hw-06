@@ -818,6 +818,11 @@ h2 {
   margin-right: 12px;
 }
 
+.form-subscribe-input:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
 /* ============== END FOOTER ============== */
 
 .backdrop {
